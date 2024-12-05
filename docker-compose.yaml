@@ -9,7 +9,7 @@ services:
       - "52000-52100:52000-52100/udp"
     environment:
       NEKO_SCREEN: 1920x1080@30
-      NEKO_PASSWORD: neko
-      NEKO_PASSWORD_ADMIN: admin
+      NEKO_PASSWORD: slp
+      NEKO_PASSWORD_ADMIN: slp
       NEKO_EPR: 52000-52100
       NEKO_ICELITE: 1
